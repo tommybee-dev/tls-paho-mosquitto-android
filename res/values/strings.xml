@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+Licensed Materials - Property of IBM
+
+5747-SM3
+
+(C) Copyright IBM Corp. 1999, 2012 All Rights Reserved.
+
+US Government Users Restricted Rights - Use, duplication or
+disclosure restricted by GSA ADP Schedule Contract with
+IBM Corp.
+ --><resources>
+    <string name="app_name">MQTT</string>
+    <string name="menu_settings">Settings</string>
+    <string name="server">Server</string>
+    <string name="port">Port</string>
+    <string name="connect">Connect</string>
+    <string name="newConnection">New Connection</string>
+    <string name="newConnectionShort">+</string>
+    <string name="title_activity_new_connection">New Connection</string>
+    <string name="clientID">Client ID</string>
+    <string name="connectedto">Connected to </string>
+    <string name="Disconnect">Disconnect</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="publish">Publish</string>
+    <string name="title_activity_subscribe">Subscribe</string>
+    <string name="disconnected">Disconnected from</string>
+    <string name="topic">Topic</string>
+    <string name="history">History</string>
+    <string name="title_activity_history">History</string>
+    <string name="subscribed">Subscribed to </string>
+    <!-- tommybee -->
+    <!-- <string name="token">org.eclipse.paho.android.service.sample.ClientConnections</string>  -->
+    <string name="token">com.skens.sms.mqtt.service.sample.ClientConnections</string>
+    <string name="no_status">Unknown connection status to</string>
+    <string name="connecting">Connecting to</string>
+    <string name="disconnecting">Disconnecting from</string>
+    <string name="connectionError">An error occurred connecting to</string>
+    <string name="title_activity_publish">Publish</string>
+    <string name="message">Message</string>
+    <string name="qos0">0</string>
+    <string name="qos1">1</string>
+    <string name="qos2">2</string>
+    <string name="empty"/>
+    <string name="qos">QOS</string>
+    <string name="retained">Retained</string>
+    <string name="cleanSession">Clean Session</string>
+    <string name="advanced">Advanced Options</string>
+    <string name="advancedShort">Advanced</string>
+    <string name="title_activity_advanced">Advanced</string>
+    <string name="uname">User Name</string>
+    <string name="pass">Password</string>
+    <string name="ssl">SSL</string>
+    <string name="timeout">Time Out</string>
+    <string name="keepalive">Keep Alive \nTimeout</string>
+    <string name="title_activity_last_will">Last Will Message</string>
+    <string name="setLastWill">Set Last Will Message</string>
+    <string name="willMessage">Set Last Will Message</string>
+    <string name="willMessageShort">Last Will</string>
+    <string name="notifyTitle">MQTT Message Received</string>
+    <string name="notifyTitle_connectionLost">MQTT Client Has Lost Connection</string>
+    <string name="save">Save</string>
+    <string name="title_activity_connection_details">Connection Details</string>
+    <string name="startLogging">Enable Logging</string>
+    <string name="endLogging">Disable Logging</string>
+    <string name="missingOptions">ClientID, server address or Port number is missing. Please correct or press back arrow cancel.</string>
+    <string name="dateFormat">dd/MM/yy \'at\' HH:mm:ss</string>
+    <string name="unkown_error">Unknown Error</string>
+    <string name="delete">Delete Connection</string>
+    <string name="disconnectClient">Disconnect Client?</string>
+    <string name="deleteDialog">The selected client is currently connected or connecting, deleting this connection will cause it to be disconnected.</string>
+    <string name="continueBtn">Continue</string>
+    <string name="cancelBtn">Cancel</string>
+    <!-- Strings that need formatting  -->
+    <string name="messageRecieved">Received message %1$s &amp;lt;br/&amp;gt; &amp;lt;small&amp;gt;Topic: %2$s &amp;lt;/small&amp;gt; </string>
+    <string name="timestamp">&amp;lt;br/&amp;gt; &amp;lt;small&amp;gt; %1$s &amp;lt;/small&amp;gt;</string>
+    <string name="notification">%1$s has received %2$s on topic %3$s</string>
+    <string name="toast_pub_success">Published message: %1$s to topic: %2$s</string>
+    <string name="toast_sub_success">Subscribed to %1$s</string>
+    <string name="toast_disconnected">Disconnected</string>
+    <string name="toast_pub_failed">Failed to publish message: %1$s to topic: %2$s</string>
+    <string name="toast_sub_failed">Failed to subscribe to %1$s</string>
+    <string name="connection_lost">%1$s has lost connection to %2$s</string>
+    <string name="failure_disconnect">Disconnect failed.&amp;lt;br/&amp;gt; &amp;lt;small&amp;gt;Reason: %s&amp;lt;/small&amp;gt; </string>
+    <string name="failure_connect">Client failed to connect.&amp;lt;br/&amp;gt; &amp;lt;small&amp;gt;Reason: %s&amp;lt;/small&amp;gt;</string>
+    <string name="client_connected">Client connected successfully</string>
+    <!-- Hints -->
+    <string name="serverURIHint">example.example.com</string>
+    <string name="portHint">1883</string>
+    <string name="contentDescriptionSSL">Enable SSL</string>
+    <string name="contentDescriptionCleanSession">Clean Session</string>
+    <string name="topicHint">hello</string>
+    <string name="messageHint">Hello World</string>
+    <string name="unameHint">user</string>
+    <string name="passwordHint">password</string>
+    <string name="timeoutHint">60</string>
+    <string name="keepaliveHint">200</string>
+    <string name="sslKeyLocaltion">file://</string>
+    <string name="select">select</string>
+    <!-- VPN 관련 -->
+    <string name="statusAuthUnexceptedError">인증서버와 RPC호출 에러가 발생하였습니다.</string>
+    <string name="statusAuthConnectFailError">인증서버 RPC접속 불가능 합니다.</string>
+    <string name="statusUserNotFoundError">사용자 ID가 없습니다.</string>
+    <string name="statusPasswordFaileError1">암호가 실패했습니다.</string>
+    <string name="statusPasswordFaileError2">암호가 %1$s회 실패했습니다.</string>
+    <string name="statusCRLConnectFailError">CRL 접속 오류로 인해 인증 불가능합니다.</string>
+    <string name="statusOCSPConnectFailError">OCSP 접속 오류로 인해 인증 불가능합니다.</string>
+    <string name="statusCertRevockedError">파기된 인증서입니다.</string>
+    <string name="statusPolicyLockedError">사용자 계정이 잠겨 있습니다.</string>
+    <string name="statusPolicyExpiredError">계정 유효기간 만료되었습니다.</string>
+    <string name="statusPolicyClientIprangeError">사용자가 접속 가능한 클라이언트 IP 대역이 아닙니다.</string>
+    <string name="statusScheduleError">VPN 사용가능 시간대가 아닙니다.</string>
+    <string name="statusRadiusRejectError">RADIUS 인증이 실패했습니다.</string>
+    <string name="statusRadiusTimeoutError">RADIUS 서버가 응답하지 않습니다.</string>
+    <string name="statusLDAPConnectFailError">LDAP 서버 접속 실패했습니다.</string>
+    <string name="statusLDAPRejectError">LDAP 인증 실패했습니다.</string>
+    <string name="statusNPKIFailError">공인인증서 VID 불일치 합니다.</string>
+    <string name="statusIPLeaseFailError">IP 풀이 꽉 차서 더이상 할당 불가능 합니다.</string>
+    <string name="statusNPKIIDNFailError">공인인증서 주민등록번호에 의한 본인확인 검증 실패했습니다.</string>
+    <string name="statusNPKINotFoundError">공인인증서 VID 등록 안 된 상태입니다.</string>
+    <string name="statusPolicyMissmatchError">현재 로그인 정책과 일치하지 않는 로그인 시도입니다.</string>
+    <string name="statusTunnelLimitError">동시접속자 최대한계 도달하여 더 이상 접속 불가능합니다.</string>
+    <string name="statusDeviceFailError">인가된 장치가 아닙니다.</string>
+    <string name="statusCertExpiredError">인증서 기한 만료되었습니다.</string>
+    <string name="statusCertVerifyFailError">신뢰할 수 없는 인증서입니다.</string>
+    <string name="statusProfileNotFoundError">프로파일이 없습니다.</string>
+    <string name="statusPasswordExpiredError">암호 기한이 만료되었습니다.</string>
+    <string name="statusOTPFileError1">OTP 인증에 실패하였습니다.</string>
+    <string name="statusOTPFileError2">OTP 인증에 %1$s회 실패하였습니다.</string>
+    <string name="statusIDNNotFoundError">주민등록번호가 장비에 설정되어 있지 않습니다.</string>
+    <string name="statusDeviceExpiredError">기기가 만료되었습니다.</string>
+    <string name="statusDeviceLockError">기기가 잠겨 있습니다.</string>
+    <string name="statusSubjectDnNotFoundError">인증서 주체가 등록되어 있지 않습니다.</string>
+    <string name="statusUserLimitError">사용가능한 사용자 수가 초과되었습니다.</string>
+    <string name="statusCertpasswordfail">공인인증서 암호가 실패했습니다.</string>
+    <string name="statusunknowError">알 수 없는 오류가 발생했습니다.</string>
+    <string name="applist_finish_configerror">VPN 설정이 잘못되었습니다.</string>
+    <string name="applist_finish_idltimeout">Timeout으로 VPN 터널이 종료되었습니다.</string>
+    <string name="applist_finish_network">네트워크가 변경되었습니다. 다시 접속하세요.</string>
+    <string name="applist_finish_processdie">VPN 프로세스가 종료되었습니다.</string>
+    <string name="applist_finish_mtu">내부 IPC 통신 오류가 발생했습니다.</string>
+    <string name="applist_finish_reset">VPN 연결이 강제 종료되었습니다.</string>
+    <string name="applist_finish_user">로그아웃 되었습니다.</string>
+    <string name="title_activity_intro">IntroActivity</string>
+    <string name="title_activity_empty">EmptyActivity</string>
+</resources>

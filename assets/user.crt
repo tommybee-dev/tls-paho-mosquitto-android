@@ -1,0 +1,95 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 4 (0x4)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=US, ST=CA, L=San Francisco, O=Feats and Heroes Corp., OU=FEAT VPN, CN=FEAT VPN CA/emailAddress=hello@featvpn.com
+        Validity
+            Not Before: Dec 20 00:40:21 2011 GMT
+            Not After : Nov 26 00:40:21 2111 GMT
+        Subject: C=US, ST=CA, L=San Francisco, O=Feats and Heroes Corp., OU=FEAT VPN, CN=feat-vpn-test/emailAddress=hello@featvpn.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:c2:43:1e:4f:60:61:33:6c:d1:7e:bb:e8:92:f6:
+                    6f:0f:0c:8f:0f:5d:83:66:02:8f:ef:1b:e9:b2:93:
+                    74:e9:ad:1b:d8:59:94:dd:76:48:1b:71:bc:37:3c:
+                    5a:7d:ee:6f:6e:62:5d:e7:02:a4:35:7e:6b:b6:90:
+                    8d:57:51:7a:45:ca:20:d2:63:fc:b1:a3:0f:73:da:
+                    f9:fb:f7:ca:94:f9:83:17:06:0b:ad:2b:5d:8d:ef:
+                    fd:b6:1e:4b:d9:ac:b5:29:e8:ee:6a:49:d4:cb:83:
+                    65:9f:f1:53:b5:75:ff:42:91:21:9a:8a:0a:38:9e:
+                    15:d5:60:53:10:8c:09:77:48:25:ae:17:7e:bd:a4:
+                    21:8d:bc:fb:7e:94:ce:5f:68:fd:d2:cc:ab:6e:6c:
+                    dc:6e:28:3a:c9:55:4f:31:ba:bc:ba:df:8a:f0:1f:
+                    29:73:c5:d6:a0:48:f6:84:9f:e9:fd:69:e6:46:41:
+                    f3:a5:0d:7b:e2:26:aa:04:26:9f:37:72:1e:c9:79:
+                    47:ff:ba:80:05:eb:01:ad:4e:fc:92:ea:d4:cc:6b:
+                    00:9b:51:dd:bf:1a:85:1f:91:0c:5c:0f:17:98:31:
+                    a5:2d:a0:ed:c3:1b:e1:77:04:a5:85:cf:55:06:49:
+                    dc:77:e0:f5:4f:dc:a6:73:13:ed:2f:be:35:de:9b:
+                    c8:af
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                F0:0E:A7:48:51:5D:D0:4F:E5:16:16:CE:F6:25:62:27:1D:AF:0F:98
+            X509v3 Authority Key Identifier: 
+                keyid:FB:6D:97:8D:7F:99:52:96:AB:66:1E:37:E3:8E:2F:EA:BC:20:F6:5F
+                DirName:/C=US/ST=CA/L=San Francisco/O=Feats and Heroes Corp./OU=FEAT VPN/CN=FEAT VPN CA/emailAddress=hello@featvpn.com
+                serial:9C:4B:74:55:F9:B5:B6:A5
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha1WithRSAEncryption
+        3d:e9:a3:08:bd:b2:34:8f:11:c0:83:bc:13:5e:3c:07:73:39:
+        45:c2:33:3a:5f:71:aa:97:6d:f8:aa:11:80:63:d2:c0:cc:51:
+        79:03:05:26:87:40:1f:fa:db:6c:b6:cb:1f:2e:3d:eb:18:05:
+        8e:7e:6a:74:1c:03:6f:15:cb:9f:be:77:01:2a:70:af:49:35:
+        c3:9f:fa:f3:91:63:e3:eb:6e:f2:f7:ab:59:ac:f6:44:b9:d1:
+        1b:a3:99:31:ee:40:85:ef:54:b7:c1:1d:2d:a5:51:e6:59:d6:
+        7e:f2:97:ad:b0:4c:f6:f8:ad:ea:cf:a3:08:d9:f4:18:4d:9d:
+        ca:08:ea:c0:e6:c6:f2:f0:7c:7e:a4:5d:e3:ae:d2:a6:88:92:
+        c2:24:8a:cf:39:89:cf:71:cb:e2:51:0a:0e:08:55:b2:65:59:
+        3e:3d:25:c4:0b:40:91:fa:4c:fa:4f:31:81:e8:80:38:e0:32:
+        8b:be:16:44:06:5f:f5:7e:92:b7:54:20:11:6c:3d:e2:e0:55:
+        c8:ef:e9:54:a8:60:ba:ca:18:89:2e:3e:d6:cf:f4:8b:b7:05:
+        09:04:03:e2:3c:fa:fe:e9:cf:1c:15:d1:0d:e2:30:a6:ae:cd:
+        6f:67:ee:eb:cb:35:68:bd:be:63:85:7c:76:4e:42:3d:6f:79:
+        ed:e4:5d:21
+-----BEGIN CERTIFICATE-----
+MIIFFDCCA/ygAwIBAgIBBDANBgkqhkiG9w0BAQUFADCBnjELMAkGA1UEBhMCVVMx
+CzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1TYW4gRnJhbmNpc2NvMR8wHQYDVQQKExZG
+ZWF0cyBhbmQgSGVyb2VzIENvcnAuMREwDwYDVQQLEwhGRUFUIFZQTjEUMBIGA1UE
+AxMLRkVBVCBWUE4gQ0ExIDAeBgkqhkiG9w0BCQEWEWhlbGxvQGZlYXR2cG4uY29t
+MCAXDTExMTIyMDAwNDAyMVoYDzIxMTExMTI2MDA0MDIxWjCBoDELMAkGA1UEBhMC
+VVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1TYW4gRnJhbmNpc2NvMR8wHQYDVQQK
+ExZGZWF0cyBhbmQgSGVyb2VzIENvcnAuMREwDwYDVQQLEwhGRUFUIFZQTjEWMBQG
+A1UEAxMNZmVhdC12cG4tdGVzdDEgMB4GCSqGSIb3DQEJARYRaGVsbG9AZmVhdHZw
+bi5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDCQx5PYGEzbNF+
+u+iS9m8PDI8PXYNmAo/vG+myk3TprRvYWZTddkgbcbw3PFp97m9uYl3nAqQ1fmu2
+kI1XUXpFyiDSY/yxow9z2vn798qU+YMXBgutK12N7/22HkvZrLUp6O5qSdTLg2Wf
+8VO1df9CkSGaigo4nhXVYFMQjAl3SCWuF369pCGNvPt+lM5faP3SzKtubNxuKDrJ
+VU8xury634rwHylzxdagSPaEn+n9aeZGQfOlDXviJqoEJp83ch7JeUf/uoAF6wGt
+TvyS6tTMawCbUd2/GoUfkQxcDxeYMaUtoO3DG+F3BKWFz1UGSdx34PVP3KZzE+0v
+vjXem8ivAgMBAAGjggFVMIIBUTAJBgNVHRMEAjAAMC0GCWCGSAGG+EIBDQQgFh5F
+YXN5LVJTQSBHZW5lcmF0ZWQgQ2VydGlmaWNhdGUwHQYDVR0OBBYEFPAOp0hRXdBP
+5RYWzvYlYicdrw+YMIHTBgNVHSMEgcswgciAFPttl41/mVKWq2YeN+OOL+q8IPZf
+oYGkpIGhMIGeMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDVNh
+biBGcmFuY2lzY28xHzAdBgNVBAoTFkZlYXRzIGFuZCBIZXJvZXMgQ29ycC4xETAP
+BgNVBAsTCEZFQVQgVlBOMRQwEgYDVQQDEwtGRUFUIFZQTiBDQTEgMB4GCSqGSIb3
+DQEJARYRaGVsbG9AZmVhdHZwbi5jb22CCQCcS3RV+bW2pTATBgNVHSUEDDAKBggr
+BgEFBQcDAjALBgNVHQ8EBAMCB4AwDQYJKoZIhvcNAQEFBQADggEBAD3powi9sjSP
+EcCDvBNePAdzOUXCMzpfcaqXbfiqEYBj0sDMUXkDBSaHQB/622y2yx8uPesYBY5+
+anQcA28Vy5++dwEqcK9JNcOf+vORY+PrbvL3q1ms9kS50RujmTHuQIXvVLfBHS2l
+UeZZ1n7yl62wTPb4rerPowjZ9BhNncoI6sDmxvLwfH6kXeOu0qaIksIkis85ic9x
+y+JRCg4IVbJlWT49JcQLQJH6TPpPMYHogDjgMou+FkQGX/V+krdUIBFsPeLgVcjv
+6VSoYLrKGIkuPtbP9Iu3BQkEA+I8+v7pzxwV0Q3iMKauzW9n7uvLNWi9vmOFfHZO
+Qj1vee3kXSE=
+-----END CERTIFICATE-----
