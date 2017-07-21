@@ -24,5 +24,3 @@ Connect to your mosquitto broker server fullfilling with information.
 #Note: Don't forget to check the last check box
 
 
-
-
