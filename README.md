@@ -21,22 +21,36 @@ Tab the highlighted icon on the main screen.
 
 Connect to your mosquitto broker server fullfilling with information.
 
-#Note: Don't forget to check the last check box
+# Note: Don't forget to check the last check box
 
+You can see the mqtt paho icon on the main screen after installation.
 
 ![main screen](https://github.com/tommybee-dev/tls-paho-mosquitto-android/blob/master/screenshot/screen.png?raw=true "main screen")
 
+Next, let's connect mosquitto broker system in which you built as below. Don't forget to check the TLS thing check box checked.
+
 ![start connect](https://github.com/tommybee-dev/tls-paho-mosquitto-android/blob/master/screenshot/connection.png?raw=true "start connect")
+
+If you have like following image, It means you are success to connect the mosquitto broker server.
 
 ![after connection](https://github.com/tommybee-dev/tls-paho-mosquitto-android/blob/master/screenshot/connectionHist.png?raw=true "after connection")
 
+First of all, you will see the connection history how many times by tapping arrow image on previous image.
+You will get message prompt asking remove this connection by Long tapping on the message field.
+
 ![history](https://github.com/tommybee-dev/tls-paho-mosquitto-android/blob/master/screenshot/history.png?raw=true "history")
+
+Subscribe a topic as a 'my topic1' at this example.
 
 ![subscribe](https://github.com/tommybee-dev/tls-paho-mosquitto-android/blob/master/screenshot/subscribe.png?raw=true "subscribe")
 
+Next step is sending a message whatever sentence i pick up.
 ![publish](https://github.com/tommybee-dev/tls-paho-mosquitto-android/blob/master/screenshot/publish.png?raw=true "subscribe")
 
+Now we've got a message poping up on the upside title bar.
 ![inform](https://github.com/tommybee-dev/tls-paho-mosquitto-android/blob/master/screenshot/inform.png?raw=true "inform")
+
+Finally, You can check how many message i recieved from someone by mqtt protocol with the mosquitto environment.
 
 ![messagehist](https://github.com/tommybee-dev/tls-paho-mosquitto-android/blob/master/screenshot/messagehist.png?raw=true "messagehist")
 
